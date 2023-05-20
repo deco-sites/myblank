@@ -1,0 +1,12 @@
+interface Props {
+  título: string;
+}
+
+export default function LatestPosts({ title }: Props) {
+  return (
+    <div>
+      <h1 class="font-bold">{title}</h1>
+      <p>Esta é uma Section de exemplo</p>
+    </div>
+  );
+}
